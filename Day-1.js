@@ -28,3 +28,21 @@ function getconst(){
     c='Raj'//Uncaught ReferenceError: Cannot access 'c' before initialization
     console.log(c)
 }
+
+
+// Hoisting in JavaScript...
+// hoisting is the way to move the all declarations on the top of their scops.
+
+// one example code to uderstand it better.
+hello()
+function hello(){
+    console.log("Hello")
+}
+
+
+getvalue()
+var z;
+function getvalue(){
+    z=0
+    console.log(z)
+}
