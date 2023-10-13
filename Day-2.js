@@ -12,10 +12,10 @@ const student={
     sem:6,
     getStudentInfo:function(){
         console.log("------Student Information------");
-        console.log(`Student name:${student.name}`);
-        console.log(`Age:${student.age}`);
-        console.log(`Course:${student.course}`);
-        console.log(`Semester:${student.sem}`);
+        console.log(`Student name:${this.name}`);
+        console.log(`Age:${this.age}`);
+        console.log(`Course:${this.course}`);
+        console.log(`Semester:${this.sem}`);
         console.log("-------------------------------");
     }
 }
@@ -29,11 +29,23 @@ person.name="Sameer"
 person.age=21
 
 
-person.getPersonInfo=function(){
-    console.log("------Person Information------");
-    console.log(`Name:${person.name}`);
-    console.log(`Age:${person.age}`);
-    console.log("------------------------------");
+person.getPersonInfo = function() {
+    /**
+     * Logs the name and age of a person object to the console.
+     * 
+     * @example
+     * person.getPersonInfo();
+     * // Output:
+     * // ------Person Information------
+     * // Name: Sameer
+     * // Age: 21
+     * // ------------------------------
+     */
+    
+    console.log(`------Person Information------
+    Name:${this.name}
+    Age:${this.age}
+    ------------------------------`);
 }
 person.getPersonInfo();
 
@@ -45,8 +57,8 @@ let college={
     location:"Kanpur",
     getCollegeInfo: function(){
         console.log("------College Information------");
-        console.log(`College name:${college.name}`);
-        console.log(`Location:${college.location}`);
+        console.log(`College name:${this.name}`);
+        console.log(`Location:${this.location}`);
         console.log("-------------------------------");
     }
 }
