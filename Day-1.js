@@ -46,3 +46,25 @@ function getvalue(){
     z=0
     console.log(z)
 }
+
+// Data Types in JavaScript..
+// In JavaScript premitive data types are: string, numbers, boolean,null,bigint,symbols and undefined.
+function getdatatype(){
+    var n=10 // number
+    var b='Raj' // string
+    var x=true // boolean
+    var y=null // null
+    var d=undefined // undefined
+    var s=Symbol("id") //symbol 
+    var big=122398388388384899n // bigint
+
+    // accessing data types
+    console.log(typeof n)
+    console.log(typeof b)
+    console.log(typeof x)
+    console.log(typeof y)
+    console.log(typeof d)
+    console.log(typeof s)
+    console.log(typeof big)
+}
+getdatatype()
