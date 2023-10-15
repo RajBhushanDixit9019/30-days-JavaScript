@@ -1,4 +1,4 @@
-// this JS script is day 2 of 30 days javascript: objects in JS.
+// this JS script is day 2 and 3 of 30 days javascript: objects in JS.
 
 // Objects in JavaScript...
 // object reffered as a real world entity in the programming.
