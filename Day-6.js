@@ -35,3 +35,21 @@ if(admin.online==='active'){
     console.log(`${admin.name} is ${admin.online}`);
     admin.work()// display's admin is working..
 }
+
+console.log("\n");
+// Array is also an object..
+let arr=[1,2,3,4]
+
+arr.name="Numbered array";
+console.log(arr.name);
+
+console.log("\n");
+// functions are also objects..
+function hello(){
+    console.log("Hello");
+}
+
+hello()
+
+hello.type='function';
+console.log(hello.type);
