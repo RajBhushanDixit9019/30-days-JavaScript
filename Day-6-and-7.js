@@ -1,4 +1,4 @@
-// this is day 6 of 30 days of JavaScript: Prototypical Inheritance.
+// this is day 6 and 7 of 30 days of JavaScript: Prototypical Inheritance.
 
 // Prototypical in heritance in JavaScript...
 // it is a way or method in which when we read a property of any object,
@@ -35,6 +35,8 @@ if(admin.online==='active'){
     console.log(`${admin.name} is ${admin.online}`);
     admin.work()// display's admin is working..
 }
+
+// Day 7 code...
 
 console.log("\n");
 // Array is also an object..
